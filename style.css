@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h4 {
+  font-size: 15px;
+}
+header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.fa-orange {
+  color: darkorange;
+}
+
+header > div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header-links {
+  list-style-type: none;
+}
+
+.description {
+  color: #707070;
+}
+
+.btn-primary {
+  width: 100px;
+  height: 30px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: darkorange;
+  font-size: 15px;
+  margin: 16px 32px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div {
+  width: 20%;
+  margin: 0px auto;
+}
