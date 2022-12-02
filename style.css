@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: sans-serif;
+}
+
 h4 {
   font-size: 15px;
 }
@@ -30,7 +38,7 @@ header > div {
   color: #707070;
 }
 
-.btn-primary {
+/* .btn-primary {
   width: 100px;
   height: 30px;
   color: white;
@@ -42,14 +50,4 @@ header > div {
   border: none;
   cursor: pointer;
   text-align: center;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer > div {
-  width: 20%;
-  margin: 0px auto;
-}
+} */
