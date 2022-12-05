@@ -2,6 +2,7 @@
   --grey-bg: #f1f1f6;
   --border-color: #ccc;
   --blue-bg: #23395d;
+  --color-white: #fff;
 }
 
 div,
@@ -95,9 +96,51 @@ ul > li {
   list-style: none;
 }
 
-.btn btn-footer {
-  width: 100px;
-  background-color: darkorange;
+.icon-wrapper {
+  border: 1px solid var(--color-white);
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.content {
+  width: 40%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.form-container {
+  padding: 2rem;
+  background-color: #f1f1f6;
+}
+
+.custom-btn-orange {
+  --bs-btn-bg: darkorange;
+  --bs-btn-color: #fff;
+  --bs-btn-font-size: 0.8rem;
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.5rem;
+  --bs-btn-hover-bg: darkorange;
+  --bs-btn-hover-border-color: darkorange;
+  --bs-btn-hover-color: #fff;
+}
+
+.heading-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+
+.heading {
+  color: darkorange;
+}
+
+h2 {
+  color: black;
+  font-weight: 600;
+}
+
+hr {
+  width: 100%;
   color: white;
-  border: none;
 }
