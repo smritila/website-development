@@ -124,13 +124,6 @@ ul > li {
   --bs-btn-hover-color: #fff;
 }
 
-.heading-text {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 100px auto;
-}
-
 .heading {
   color: darkorange;
 }
