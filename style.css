@@ -137,3 +137,15 @@ hr {
   width: 100%;
   color: white;
 }
+
+.banner {
+  position: relative;
+}
+.contact-heading {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  color: #fff;
+  size: 25px;
+  font-weight: bold;
+}
