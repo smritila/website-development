@@ -108,6 +108,14 @@ ul > li {
   text-align: center;
 }
 
+/* .content-teachers {
+  width: 100%;
+  margin: 100px auto 70px auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+} */
+
 .form-container {
   padding: 2rem;
   background-color: #f1f1f6;
@@ -148,4 +156,13 @@ hr {
   color: #fff;
   size: 25px;
   font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
