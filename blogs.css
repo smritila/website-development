@@ -11,3 +11,14 @@
 .others {
   flex-basis: 30%;
 }
+
+.blog-card-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-cards {
+  width: 100%;
+  border: 1px solid green;
+  height: 250px;
+}
