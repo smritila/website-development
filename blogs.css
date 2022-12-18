@@ -21,7 +21,6 @@
 
 .blog-cards {
   width: 48%;
-  border: 1px solid green;
   height: 300px;
   margin-bottom: 4%;
   border-radius: 5px;
@@ -31,6 +30,16 @@
 
 .blog-bg-style-1 {
   background-image: url("./images/blog-1.jpg");
+  background-size: cover;
+}
+
+.blog-bg-style-2 {
+  background-image: url("./images/blog-2.jpg");
+  background-size: cover;
+}
+
+.blog-bg-style-3 {
+  background-image: url("./images/blog-3.jpg");
   background-size: cover;
 }
 
@@ -44,4 +53,17 @@
   color: red;
   font-size: 0.8rem;
   margin-top: 10px;
+}
+
+.others-icon {
+  width: 60px;
+  height: 65px;
+  border-radius: 40px;
+}
+.blog-others-card {
+  background-color: #23395d;
+  width: 200px;
+  height: 35vh;
+  padding: 20px;
+  text-align: center;
 }
