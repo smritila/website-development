@@ -1,15 +1,19 @@
+.blog-content {
+  width: 65%;
+}
+
 .blog-container {
   width: 100%;
   display: flex;
 }
 
 .blog-card-list {
-  flex-basis: 65%;
+  flex-basis: 70%;
   padding-right: 2rem;
 }
 
 .others {
-  flex-basis: 35%;
+  flex-basis: 30%;
 }
 
 .blog-card-list {
@@ -62,8 +66,11 @@
 }
 .blog-others-card {
   background-color: #23395d;
-  width: 200px;
-  height: 35vh;
-  padding: 20px;
+  width: 100%;
   text-align: center;
+  border-radius: 5px;
+}
+
+p {
+  color: var(--color--blue);
 }
