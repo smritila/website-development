@@ -74,3 +74,18 @@
 p {
   color: var(--color--blue);
 }
+
+.blog-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.blog-details {
+  display: flex;
+}
+
+.space {
+  margin-left: 70px;
+  margin-bottom: 100px;
+}
