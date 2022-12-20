@@ -89,3 +89,27 @@ p {
   margin-left: 70px;
   margin-bottom: 100px;
 }
+
+.custom-button {
+  --bs-btn-bg: #fff;
+  --bs-btn-color: orange;
+  --bs-btn-font-size: 0.8rem;
+  --bs-btn-padding-x: 0.2rem;
+  --bs-btn-padding-y: 0.2rem;
+  --bs-btn-border-color: darkorange;
+  --bs-btn-border-radius: 0.3rem;
+}
+
+.custom-button-1 {
+  --bs-btn-bg: #fff;
+  --bs-btn-color: orange;
+  --bs-btn-font-size: 0.8rem;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 0.2rem;
+  --bs-btn-border-color: darkorange;
+  --bs-btn-border-radius: 0.3rem;
+}
+
+.btn-container {
+  display: flex;
+}
