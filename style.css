@@ -142,7 +142,10 @@ hr {
 .banner {
   position: relative;
 }
-.contact-heading {
+.banner > img {
+  width: 100%;
+}
+.banner-heading {
   position: absolute;
   left: 100px;
   top: 100px;
@@ -164,4 +167,8 @@ hr {
   font-size: 16px;
   color: black;
   font-weight: bold;
+}
+
+.text-bg-orange {
+  background-color: darkorange;
 }
