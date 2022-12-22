@@ -133,3 +133,12 @@ p {
 .btn-container {
   display: flex;
 }
+
+.active > .page-link {
+  background-color: darkorange;
+  border-color: darkorange;
+}
+
+.page-link {
+  color: darkorange;
+}
