@@ -56,9 +56,27 @@
 }
 
 .course-cards {
-  width: 10rem;
-  height: 5rem;
-  margin-bottom: 2%;
+  height: 7rem;
   border-radius: 5px;
   position: relative;
+  text-align: center;
+}
+
+.course-card-list > .course-cards {
+  width: 22%;
+  margin-bottom: 4%;
+}
+
+.course-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
 }

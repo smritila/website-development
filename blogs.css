@@ -7,11 +7,6 @@
   display: flex;
 }
 
-.blog-card-list {
-  flex-basis: 70%;
-  padding-right: 2rem;
-}
-
 .others {
   flex-basis: 30%;
 }
@@ -21,6 +16,8 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  flex-basis: 70%;
+  padding-right: 2rem;
 }
 
 .blog-cards {
