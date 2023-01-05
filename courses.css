@@ -1,8 +1,3 @@
-/* .course-container {
-  width: 100%;
-  display: flex;
-} */
-
 .course-content {
   width: 65%;
 }
@@ -84,17 +79,18 @@
 .course_container {
   width: 100%;
   display: flex;
-  margin: 0 auto 30px auto;
-  max-width: 700px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .courses__card {
-  width: 225px;
   background-color: #e9ecef;
   border-radius: 5px;
-  margin-bottom: 15px;
+}
+
+.course_container > .courses__card {
+  width: 32%;
+  margin-bottom: 2%;
 }
 
 .courses__card__img {
